@@ -6,11 +6,7 @@ import './index.css';
 import { Home } from './component/pages/Home.jsx';
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home/>} />
-      </Routes>
-    </BrowserRouter>
+    <Home></Home>
   );
 }
 
